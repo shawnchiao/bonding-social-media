@@ -46,6 +46,7 @@ const Login = () => {
           </div>
           <div className="shadow-2xl">
             <GoogleLogin
+              theme="filled_blue"
               size="medium"
               clientId={process.env.REACT_APP_GOOGLE_API_TOKEN}
               onSuccess={responseGoogle}
