@@ -49,7 +49,7 @@ const Home = () => {
             <img
               src={user?.image}
               alt="log"
-              className=" w-12 h-12  mx-[1.375rem] object-cover"
+              className=" w-11 h-11 rounded-full mx-2"
               // style={{margin:"auto 1.375rem"}}
             />
           </Link>
