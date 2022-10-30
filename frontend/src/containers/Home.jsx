@@ -43,13 +43,13 @@ const Home = () => {
             onClick={() => setToggleSidebar(true)}
           />
           <Link to="/">
-            <img src={logo} alt="log" className="w-28 h-12 object-cover  " />
+            <img src={logo} alt="log" className="w-28 h-12 object-cover" />
           </Link>
           <Link to={`user-profile/${user?._id}`}>
             <img
               src={user?.image}
               alt="log"
-              className=" w-12 h-12  mx-[1.375rem] object-cover  "
+              className=" w-12 h-12  mx-[1.375rem] object-cover"
               // style={{margin:"auto 1.375rem"}}
             />
           </Link>
